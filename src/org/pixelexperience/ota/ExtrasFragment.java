@@ -53,7 +53,7 @@ public class ExtrasFragment extends Fragment {
                 devCard.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String url = "https://t.me/boozabooza";
+                    String url = "https://sites.google.com/view/immanuelraj/about";
                     Intent i = new Intent(Intent.ACTION_VIEW);
                     i.setData(Uri.parse(url));
                     startActivity(i);
